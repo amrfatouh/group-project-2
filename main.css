@@ -1,3 +1,57 @@
 .navbar {
     margin: 0;
+    height: 76px;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    background-color: #111;
+    height: 75px;
+    line-height: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.carousel-inner .carousel-caption {
+    background-color: rgba(53, 56, 58, 0.5);
+    bottom: 220px;
+    width: 60%;
+    text-align: left;
+    padding: 50px;
+}
+
+.carousel-caption h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.carousel-caption h2 {
+    color: #4FCAFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carousel-caption h6 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.carousel-caption button {
+    background-color: #4FCAFF;
+    border: 0;
+    padding: 20px 40px;
+}
+
+.carousel-caption button h3 {
+    margin: 0;
+    font-weight: normal;
 }
